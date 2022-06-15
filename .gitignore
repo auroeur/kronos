@@ -1,1 +1,4 @@
-data
+simulation_results
+simulation_runs
+runs
+__pycache__/
