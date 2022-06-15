@@ -4,9 +4,12 @@ This repository contains the code and simulation results presented in the
 experiments section of the paper. All the commands described bellow require
 that we are in the root directory of the project.
 
-Python >= 3.8 and conda are required. 
+Python >= 3.8 and PyTorch >= 1.10 (via conda) are required.
 
 ```
+# Install additional libraries 
+pip install numpy toolz sklearn tensorboard pandas 
+
 # Extract the data sets and simulation results
 sh extract_tar.sh
 
