@@ -152,9 +152,6 @@ def training_loop(log_dir, train_dataset, validation_dataset, input_size, output
             "input_size"  : input_size, # of the input sequences 
             "hidden_size" : 16, # cells per lstm
             "num_layers"  : 1, # how lstm layers
-            #"dropout"     : 0.45 # dropout layer with probability 
-                                 # only appplies if num_layers > 2; 
-                                 # not applied on output of the last layer
             }
         model = LSTMnn(lstm_params, output_size=output_size)
 
