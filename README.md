@@ -8,7 +8,7 @@ Python >= 3.8 and PyTorch >= 1.10 (via conda) are required.
 
 ```
 # Install additional libraries 
-pip install numpy toolz sklearn tensorboard pandas 
+pip install numpy toolz sklearn tensorboard pandas pm4py
 
 # Extract the data sets and simulation results
 sh extract_tar.sh
